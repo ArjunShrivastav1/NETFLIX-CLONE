@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url(assets/bg.jpg);
+    height: 80vh;
+    position: relative;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: max(1200px, 150vw);
+    
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    padding: 8px;
+
+}
+
+nav img {
+    width: 124px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    position: relative;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 0px;
+    margin: 0;
+
+}
+.text >:nth-child(1){
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    
+}
+.text >:nth-child(2){
+    font-size: 18px;
+    text-align: center;
+}
+.text >:nth-child(3)
+{
+    font-size: 14px;
+    text-align: center;
+}
+.seperation{
+    height: 7px;
+    background-color:rgba(78, 78, 78, 0.452) ;
+   
+}
+.btn{
+    padding: 3px 8px;
+    /* font-weight: bold; */
+    background-color: rgba(0, 0, 0, 0.096);
+    color: white;
+    border: 1px solid rgb(128, 128, 128);
+border-radius: 3px;
+font-size: 12px;
+    padding: 5px 20px;
+    margin: 10px;
+
+}
+.btn-red{
+background-color: rgb(216, 16, 16);
+color: white;
+padding: 9px 10px;
+font-size: 14px;
+border: none;
+border-radius: 3px;
+text-align: center;
+justify-content: center;
+}
+.btn-red-sm{
+background-color: rgb(216, 16, 16);
+color: white;
+padding: 5px 10px;
+border: none;
+border-radius: 3px;
+font-size: 12px;
+}
+.main input{
+    background-color: rgba(68, 68, 68, 0.226);
+color: white;
+position: relative;
+padding: 10px 10px;
+padding-right:300px;
+font-size: 12px;
+border: 1px solid rgb(128, 128, 128);
+border-radius: 3px;
+
+}
+.text-button{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 15px;
+}
+.first{
+    display: flex;
+    
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    /* gap: 100px; */
+    padding: 45px;
+}
+.secImg img{
+    position: relative;
+    z-index: 10;
+    
+}
+.secImg{
+   position: relative;
+   
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+right: 0;
+margin-right: 28px;
+margin-top: 10px;
+}
+.first > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first >div :nth-child(1){
+    font-size: 35px;
+    font-weight: bolder;
+}
+.first >div :nth-child(2){
+    font-size: 20px;
+   
+}
+
+.secImg .saif{
+    width: 350px;
+position: absolute;
+top: 22px;
+right: 0;
+margin-right: 111px;
+
+footer{
+    background-color: rgb(0, 0, 0);
+    
+}
+}
+footer span div{
+    padding: 10px;
+    color: white;
+    padding-top: 60px;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    
+}
+footer >div{
+    background-color: rgb(63, 63, 63);
+    padding: 20px;
+    max-width: 70vw;
+   justify-content: center;
+    margin:10px auto;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.box > div:hover{
+    background-color: rgb(104, 104, 104);
+    transition: 0.5s;
+}
+
+.box{
+    height: 80vh;
+}
+.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(135, 135, 209);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.footer-col h4::before{
+    content: "";
+   position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3 ease;
+}
+  .container{
+   background-color: rgb(0, 0, 0);
+   padding: 40px;
+  }
+
+  .row{
+    display: flex;
+   
+  }
+  .footer-col ul li{
+    list-style: none;
+  }
+  .footer-col ul li a:hover{
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+  }
